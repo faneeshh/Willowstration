@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Willowstration | Where Writing Embraces Simplicity</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo.png"
+          alt="Bankist logo"
+          class="nav__logo"
+          id="logo"
+          designer="Jonas"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Open account</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>
+          Where
+          <!-- Green highlight effect -->
+          <span class="highlight">Writing</span>
+          embraces<br />
+          <span class="highlight">Simplicity</span>
+        </h1>
+        <h4>Precision in every paragraph</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img
+          src="img/hero.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          The Ideal Companion for your writing Journey
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Distraction-Free Mode</h5>
+          <p>
+            Distraction-Free Mode lets you write without interruptions. Enjoy a
+            clean, minimalist interface that hides toolbars and notifications,
+            so you can focus solely on your words and ideas.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Progress Tracking</h5>
+          <p>
+            Progress Tracking helps you stay on top of your writing goals.
+            Monitor your word count, set targets, and view detailed statistics
+            to track your progress. Stay motivated and see how your efforts
+            translate into completed work.
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/card-lazy.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Content Templates</h5>
+          <p>
+            Streamline your writing process with customizable Content Templates.
+            Whether you’re drafting a blog post, crafting an essay, or outlining
+            a novel, our ready-made templates provide a structured starting
+            point.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Operations</h2>
+        <h3 class="section__header">
+          Everything as simple as possible, but no simpler.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Export Options
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Streamlined Access
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Word Tools
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Export your work in any format, instantly! No hassles, no limits.
+          </h5>
+          <p>
+            Effortlessly share your work with versatile Export Options. Save
+            your documents in multiple formats, including PDF, DOCX, and EPUB,
+            to suit any need. Whether you're preparing a manuscript for
+            submission, a report for presentation, or an eBook for distribution,
+            our export features ensure your content maintains its integrity and
+            formatting across all platforms.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">Access Anywhere, Anytime</h5>
+          <p>
+            Experience uninterrupted writing with Multi-Platform Compatibility.
+            Whether you're working on a desktop, tablet, or smartphone, your
+            documents are always synced and accessible. Switch between devices
+            effortlessly and pick up right where you left off, ensuring that
+            your writing journey remains smooth and consistent, no matter where
+            you are.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">Words at Your Fingertips</h5>
+          <p>
+            Enhance your writing with the In-App Dictionary and Thesaurus.
+            Instantly access definitions and synonyms without leaving your
+            document. This feature ensures you find the perfect words and enrich
+            your vocabulary while maintaining your writing flow seamlessly.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Millions of Writers are already making their life simpler.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Your best writing call ever!</h5>
+            <blockquote class="testimonial__text">
+              This is the ultimate choice for serious writers. With intuitive
+              tools, seamless device integration, and instant access to a
+              dictionary and thesaurus, it simplifies your process and boosts
+              productivity. Export options make sharing your work effortless. If
+              you want to elevate your writing, this is the decision to make.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo1" />
+              <h6 class="testimonial__name">Donna Tartt</h6>
+              <p class="testimonial__location">Greenwood, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to becoming a complete minimalist
+            </h5>
+            <blockquote class="testimonial__text">
+              This tool is the final piece for anyone striving for minimalism.
+              It streamlines your writing process and declutters your workflow,
+              aligning perfectly with minimalist principles. A must-have for
+              simplifying and refining your creative process.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo2" />
+              <h6 class="testimonial__name">Haruki Murakami</h6>
+              <p class="testimonial__location">Kyoto, Japan</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The Final Piece for Crafting Exceptional Writing
+            </h5>
+            <blockquote class="testimonial__text">
+              This tool is the ultimate addition to your writing arsenal. It
+              integrates seamlessly with your workflow, providing essential
+              features that elevate your writing to the next level. From
+              advanced editing options to intuitive organization, it enhances
+              every aspect of your process. If you're aiming for exceptional
+              writing, this is the final piece you need to perfect your craft.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo3" />
+              <h6 class="testimonial__name">Sylvia Path</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best day to join Willowstration was one year ago. The second best
+          is today!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Open your free account today!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="img/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Product by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://twitter.com/jonasschmedtman"
+          >Willowstration</a
+        >. Your daily companion for a productive outcome.
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
